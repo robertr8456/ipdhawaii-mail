@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect Notice – IPD Hawaii</title>
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+    img.logo {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    p {
+      font-size: 16px;
+      color: #555;
+    }
+    button {
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="IPD Hawaii Logo" class="logo">
+    <h1>You're visiting ipdhawaii-mail.com</h1>
+    <p>Would you like to go to our main website at <strong>ipdhawaii.com</strong>?</p>
+    <button onclick="redirect()">Yes, take me there</button>
+  </div>
+
+  <script>
+    function redirect() {
+      window.location.href = "https://ipdhawaii.com";
+    }
+  </script>
+</body>
+</html>
